@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register - IT Dept, GU</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="header-content">
+            <div class="logo-container">
+                <img src="https://akm-img-a-in.tosshub.com/sites/resources/campus/prod/img/logo/2023/7/gu-logo717444878469.png" alt="Gauhati University Logo" class="logo">
+                <div class="logo-text">
+                    <h1>Department of Information Technology</h1>
+                    <h2>Gauhati University</h2>
+                </div>
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+        </div>
+    </header>
+
+    <nav class="nav">
+        <ul class="nav-list">
+            <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+            <li class="nav-item"><a href="about.html" class="nav-link">About Us</a></li>
+            <li class="nav-item"><a href="Program.html" class="nav-link">Programs</a></li>
+            <li class="nav-item"><a href="admission.html" class="nav-link">Admissions</a></li>
+            <li class="nav-item"><a href="faculty.html" class="nav-link">Faculty</a></li>
+            <li class="nav-item"><a href="news.html" class="nav-link">News & Events</a></li>
+            <li class="nav-item"><a href="index.html#contact" class="nav-link">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="page-header">
+            <h2>New Student Registration</h2>
+        </section>
+
+        <section class="content-section">
+            <div class="register-wrapper">
+                <div class="register-container">
+                    <div class="form-header">
+                        <h3>Create Account</h3>
+                        <p>Fill in your details to start a new application.</p>
+                    </div>
+                    
+                    <form action="#" method="POST">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="fname">First Name</label>
+                                <input type="text" id="fname" name="fname" placeholder="Enter First Name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="lname">Last Name</label>
+                                <input type="text" id="lname" name="lname" placeholder="Enter Last Name" required>
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="gender">Gender</label>
+                                <select id="gender" name="gender" required>
+                                    <option value="">Select Gender</option>
+                                    <option value="Male">Male</option>
+                                    <option value="Female">Female</option>
+                                    <option value="Other">Other</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="dob">Date of Birth</label>
+                                <input type="date" id="dob" name="dob" required>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" placeholder="example@email.com" required>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="pass">Password</label>
+                                <input type="password" id="pass" name="pass" placeholder="Create Password" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="cpass">Confirm Password</label>
+                                <input type="password" id="cpass" name="cpass" placeholder="Confirm Password" required>
+                            </div>
+                        </div>
+
+                        <button type="submit" class="reg-btn">Register Now</button>
+                        
+                        <div class="form-footer-link">
+                            <p>Already have an account? <a href="admission.html">Login here</a></p>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="contact" class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>Contact Us</h4>
+                <p>Department of Information Technology</p>
+                <p>Gauhati University, Gopinath Bordoloi Nagar</p>
+                <p>Guwahati - 781014, Assam, India</p>
+                <p>Email: it_dept@gauhati.ac.in</p>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#">University Main Website</a></li>
+                    <li><a href="#">Syllabus</a></li>
+                    <li><a href="#">Admissions</a></li>
+                    <li><a href="#">Library</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Department of IT, Gauhati University. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

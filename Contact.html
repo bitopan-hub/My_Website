@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - IT Dept, GU</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ================= Header ================= -->
+    <header class="header">
+        <div class="header-content">
+            <div class="logo-container">
+                <img src="https://akm-img-a-in.tosshub.com/sites/resources/campus/prod/img/logo/2023/7/gu-logo717444878469.png" alt="Gauhati University Logo" class="logo">
+                <div class="logo-text">
+                    <h1>Department of Information Technology</h1>
+                    <h2>Gauhati University</h2>
+                </div>
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- ================= Navigation ================= -->
+    <nav class="nav">
+        <ul class="nav-list">
+            <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+            <li class="nav-item"><a href="about.html" class="nav-link">About Us</a></li>
+            <li class="nav-item"><a href="Program.html" class="nav-link">Programs</a></li>
+            <li class="nav-item"><a href="admission.html" class="nav-link">Admissions</a></li>
+            <li class="nav-item"><a href="faculty.html" class="nav-link">Faculty</a></li>
+            <li class="nav-item"><a href="news.html" class="nav-link">News & Events</a></li>
+            <!-- ACTIVE LINK to this page -->
+            <li class="nav-item"><a href="Contact.html" class="nav-link">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- ================= Main Content ================= -->
+    <main>
+        <section class="page-header">
+            <h2>Get in Touch</h2>
+        </section>
+
+        <section class="content-section">
+            <div class="contact-container">
+                
+                <!-- Left Column: Contact Form -->
+                <div class="contact-form-box">
+                    <h3>Send us a Message</h3>
+                    <p>Have a query? Fill out the form below and we'll get back to you.</p>
+                    
+                    <form action="#" method="POST">
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" placeholder="Reason for contacting">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" placeholder="Type your message here..." required></textarea>
+                        </div>
+
+                        <button type="submit" class="btn">Send Message</button>
+                    </form>
+                </div>
+
+                <!-- Right Column: Contact Info & Map -->
+                <div class="contact-info-box">
+                    <h3>Contact Information</h3>
+                    
+                    <div class="info-item">
+                        <h4>Address</h4>
+                        <p>Department of Information Technology<br>
+                        Gauhati University, Gopinath Bordoloi Nagar<br>
+                        Jalukbari, Guwahati - 781014<br>
+                        Assam, India</p>
+                    </div>
+
+                    <div class="info-item">
+                        <h4>Email & Phone</h4>
+                        <p><strong>Email:</strong> itdept@gauhati.ac.in</p>
+                        <p><strong>Phone:</strong> +91 361 123 4567</p>
+                    </div>
+
+                    <div class="info-item">
+                        <h4>Office Hours</h4>
+                        <p>Monday - Friday: 9:00 AM - 5:00 PM<br>
+                        Saturday - Sunday: Closed</p>
+                    </div>
+
+                    <!-- Google Map Placeholder -->
+                    <div class="map-container">
+                        <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3581.8089207756357!2d91.66462777618458!3d26.142336992948012!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x375a44ebd2c03e87%3A0x5b2d96843324283d!2sGauhati%20University!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin" 
+                            width="100%" 
+                            height="250" 
+                            style="border:0;" 
+                            allowfullscreen="" 
+                            loading="lazy">
+                        </iframe>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <!-- ================= Footer ================= -->
+    <footer id="contact" class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>Contact Us</h4>
+                <p>Department of Information Technology</p>
+                <p>Gauhati University, Gopinath Bordoloi Nagar</p>
+                <p>Guwahati - 781014, Assam, India</p>
+                <p>Email: itdept@gauhati.ac.in</p>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#">University Main Website</a></li>
+                    <li><a href="#">Syllabus</a></li>
+                    <li><a href="#">Admissions</a></li>
+                    <li><a href="#">Library</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Department of IT, Gauhati University. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
